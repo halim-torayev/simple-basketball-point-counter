@@ -19,7 +19,7 @@ body {
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 40px;
+    font-size: 100px;
     /* margin: 0; */
     color: white;
 }
@@ -31,10 +31,12 @@ h3 {
     background-color: black;
     color: white;
     font-size: 80px;
-    padding: 20px 45px;
+    color: #F94F6D;
+
 }
 
 .position {
     display: flex;
     justify-content: space-around;
+    color: #9AABD8;
 }
