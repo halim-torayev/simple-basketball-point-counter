@@ -5,12 +5,8 @@
 
 body {
     margin: 0;
-    background-image: url(images/empty-state.png);
     background-color: #1B244A;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    
 }
 
 .container {
@@ -20,5 +16,39 @@ body {
 }
 
 #home-guest {
+    margin-top: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+
+.guest-score {
+    color: #F94F6D;
+    background-color: black;
+    margin-top: 0px;
+    padding: 25px 30px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.home-score {
+    color: #F94F6D;
+    background-color: black;
+    margin-top: 0px;
+    padding: 25px 30px;
+    text-align: center;
+    font-size: 40px;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.all-add-points {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
 }
