@@ -34,28 +34,25 @@ To run this project locally, you need:
 
    ```bash
    git clone https://github.com/halim-torayev/simple-basketball-point-counter.git
+   ```
 
 2. Change directory to the project folder:
 
+   ```bash
+   cd simple-basketball-point-counter
+   ```
 
-    ```bash
-    cd simple-basketball-point-counter
+3. Open the `index.html` file in a browser.
 
+## Usage
 
-Open the index.html file in a browser.
+After opening `index.html`:
 
-### Usage
+- Click the respective buttons to increase the score for the Home or Guest team.
+- The displayed score updates immediately based on the button clicked.
 
-After opening index.html:
+## Project Structure
 
-Click the respective buttons to increase the score for the Home or Guest team.
-
-The displayed score updates immediately based on the button clicked.
-
-### Project Structure
-
-index.html — Main HTML file that defines the user interface
-
-index.css — Styling rules for layout and design
-
-index.js — JavaScript file containing the functionality for updating scores
+- `index.html` — Main HTML file that defines the user interface
+- `index.css` — Styling rules for layout and design
+- `index.js` — JavaScript file containing the functionality for updating scores
