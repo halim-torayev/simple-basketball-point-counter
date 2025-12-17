@@ -17,6 +17,7 @@ body {
 
 #home-guest {
     margin-top: 100px;
+    margin-left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     font-size: 30px;
@@ -31,7 +32,7 @@ body {
     font-size: 40px;
     border-radius: 10px;
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 .home-score {
@@ -43,12 +44,21 @@ body {
     font-size: 40px;
     border-radius: 10px;
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 20px;
 }
 
 .all-add-points {
     color: white;
     display: flex;
     justify-content: space-between;
-    
 }
+
+.add-one, .add-two, .add-three {
+    border: 2px solid #9AABD8;
+    color: #9AABD8;
+    padding: 7px 7px;
+    margin-left: 0;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
