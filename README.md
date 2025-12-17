@@ -33,13 +33,13 @@ To run this project locally, you need:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/halim-torayev/simple-basketball-point-counter.git
+   git clone https://github.com/halim-torayev/basketball-point-counter.git
    ```
 
 2. Change directory to the project folder:
 
    ```bash
-   cd simple-basketball-point-counter
+   cd basketball-point-counter
    ```
 
 3. Open the `index.html` file in a browser.
