@@ -15,7 +15,14 @@ body {
     font-family: CursedTimerUlil;
 }
 
-#home-guest {
+#homes {
+    margin-top: 100px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 30px;
+}
+#guests {
     margin-top: 100px;
     margin-left: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;

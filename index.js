@@ -1,20 +1,37 @@
-// let homePlusOne = document.getElementById("home-plus1")
-// let homePlusTwo = document.getElementById("home-plus2")
-// let homePlusThree = document.getElementById("home-plus3")
-
 let homeScore = document.getElementById("home")
-
-// let guestPlusOne = document.getElementById("guest-plus1")
-// let guestPlusTwo = document.getElementById("guest-plus2")
-// let guestPlusThree = document.getElementById("guest-plus3")
-
 let guestScore = document.getElementById("guest")
-
-homeScore = 0
-guestScore = 0
 let homeCount = 0
+let guestCount = 0
 
+
+//functions for homeScore 
 function plus1() {
     homeCount += 1
-    homeScore.textContent += homeCount
+    homeScore.textContent = homeCount
+}
+
+function plus2() {
+    homeCount += 2
+    homeScore.textContent = homeCount
+}
+
+function plus3() {
+    homeCount += 3
+    homeScore.textContent = homeCount
+}
+
+//functions for guestScore
+function plusOne() {
+    guestCount += 1
+    guestScore.textContent = guestCount
+}
+
+function plusTwo() {
+    guestCount += 2
+    guestScore.textContent = guestCount
+}
+
+function plusThree() {
+    guestCount += 3
+    guestScore.textContent = guestCount
 }
