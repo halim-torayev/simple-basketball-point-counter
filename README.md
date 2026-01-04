@@ -15,10 +15,7 @@ This project is a simple web-based basketball point counter for two teams: Home 
 - Clean and minimal user interface
 
 ## Technologies Used
-
-- **HTML** — Structure and content of the application
-- **CSS** — Layout, styling, and visual design
-- **JavaScript** — Application logic and score handling
+[![My Skills](https://skillicons.dev/icons?i=html,css,javascript&perline=10)](https://skillicons.dev)
 
 ## Getting Started
 
